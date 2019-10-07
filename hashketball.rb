@@ -2,6 +2,7 @@ require 'pp'
 def game_hash # defined method
 new_hash = {# created new hash
 
+<<<<<<< HEAD
   :home => { # within new hash created key called home
       team_name: "Brooklyn Nets", # key within hash with team name
       colors: ["Black", "White"], # key with array of string
@@ -56,6 +57,61 @@ new_hash = {# created new hash
         steals: 4,
         blocks: 11,
         slam_dunks: 1,
+=======
+  home = { # within new hash created key called home
+      "team_name" => "Brooklyn Nets", # key within hash with team name
+      "color" => ["Black" "White"], # key with array of string
+      "players" => [ # key with array
+        "Alan Anderson" => { # key with hash
+          number: 0, # keys and value  within hash
+          shoe: 16, # keys and value  within hash
+          points: 22, # keys and value  within hash
+          rebounds: 12, # keys and value  within hash
+          assists: 12, # keys and value  within hash
+          steals: 3 , # keys and value  within hash
+          blocks: 3, # keys and value  within hash
+          slam_dunks: 1, # keys and value  within hash
+        }
+        "Reggie Evans" => {
+        number:"30",
+        shoe:"14",
+        points:"12",
+        rebounds:"12",
+        assists:"12",
+        steals:"12",
+        blocks:"12",
+        slam_dunks:"7",
+      }
+:Brook_Lopez => {
+        number:"11",
+        shoe:"17",
+        points:"17",
+        rebounds:"19",
+        assists:"10",
+        steals:"3",
+        blocks:"1",
+        slam_dunks:"15",
+      }
+:Mason_Plumlee => {
+        number:"1",
+        shoe:"19",
+        points:"26",
+        rebounds:"11",
+        assists:"6",
+        steals:"3",
+        blocks:"8",
+        slam_dunks:"5",
+      }
+ :Jason_Terry => {
+        number:"31",
+        shoe:"16",
+        points:"19",
+        rebounds:"2",
+        assists:"2",
+        steals:"4",
+        blocks:"11",
+        slam_dunks:"1",
+>>>>>>> 01595780d168400c9f4bd4cbd2c839ebcc5bfc85
       }
     ]
 },
